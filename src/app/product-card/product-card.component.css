@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product-card {
+  border: 4px solid rgba(98, 97, 97, 0.5019607843);
+  width: 264px;
+  border-radius: 15px;
+}
+
+.discount {
+  position: relative;
+  bottom: 300px;
+  left: 230px;
+  color: #fff2e7;
+  font-size: 20px;
+  background-color: rgb(255, 113, 113);
+  width: 52px;
+  padding: 4px;
+  border-radius: 15px;
+  margin-bottom: -31px;
+}
+
+.name {
+  font-size: 24px;
+  background-color: #fdf7f2;
+  text-align: center;
+  color: #443d3d;
+  margin-top: -5px;
+}
+
+.price {
+  font-size: 16px;
+  text-decoration: line-through;
+  background-color: #fdf7f2;
+  text-align: center;
+}
+
+.new-price {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fdf7f2;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+img {
+  border-bottom: 4px solid rgba(98, 97, 97, 0.5019607843);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}/*# sourceMappingURL=product-card.component.css.map */

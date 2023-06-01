@@ -1,0 +1,8 @@
+<div class="product-list">
+  <h2>Product Cart</h2>
+  <div class="list">
+    <div *ngFor="let product of products">
+      <app-product-card [product]="product"></app-product-card>
+    </div>
+  </div>
+</div>

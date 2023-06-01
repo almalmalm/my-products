@@ -1,0 +1,10 @@
+<div class="product-card">
+  <img [src]="product.image" alt="Product Image" width="256" />
+  <h3 class="name">{{ product.name }}</h3>
+  <p class="price">Price: {{ product.price }}</p>
+  <p class="discount">-{{ product.discount }}%</p>
+  <p class="new-price">
+    New price:
+    {{ product.price - (product.price * product.discount) / 100 }}
+  </p>
+</div>
